@@ -1,7 +1,5 @@
 #!/bin/sh
 ls
-cd /workspace/hello-jenkins
-ls
 git pull
 npm install --production
 forever restartall
