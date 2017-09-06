@@ -1,7 +1,4 @@
 #!/bin/sh
- 
-#ssh gpmsvn2017@35.198.236.4 <<EOF
-echo -e "33[1m Hello World"
 cd ~/hello-jenkins
 git pull
 npm install --production
