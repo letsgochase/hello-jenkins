@@ -2,5 +2,5 @@
 ls
 git pull origin master
 npm install --production
-forever restartall
+forever restartall app
 exit
