@@ -1,4 +1,5 @@
 #!/bin/sh
+ls
 cd /workspace/hello-jenkins
 ls
 git pull
