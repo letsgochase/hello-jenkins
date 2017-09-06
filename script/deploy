@@ -1,7 +1,6 @@
 #!/bin/sh
 cd $HOME
-echo "123"
-cd /hello-jenkins
+cd nam
 git pull
 npm install --production
 forever restartall
