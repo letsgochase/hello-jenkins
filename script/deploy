@@ -1,5 +1,5 @@
 #!/bin/sh
-cd $HOME
+cd /workspace/hello-jenkins
 ls
 git pull
 npm install --production
