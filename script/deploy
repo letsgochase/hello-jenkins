@@ -1,6 +1,6 @@
 #!/bin/sh
 ls
-git pull
+git pull origin master
 npm install --production
 forever restartall
 exit
