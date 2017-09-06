@@ -1,9 +1,10 @@
 #!/bin/sh
  
-ssh gpmsvn2017@35.186.147.244 <<EOF
+#ssh gpmsvn2017@35.198.236.4 <<EOF
   cd ~/hello-jenkins
   git pull
   npm install --production
   forever restartall
   exit
-EOF
+#EOF
+
