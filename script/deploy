@@ -1,7 +1,7 @@
 #!/bin/sh
 cd $HOME
 echo "123"
-cd hello-jenkins
+cd /hello-jenkins
 git pull
 npm install --production
 forever restartall
